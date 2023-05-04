@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7EEA7C">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="290dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="Mevduat Hesaplama Nasıl Yapılır?"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="361dp"
+        android:layout_height="240dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Mevduat hesabının getirisi hesaplanırken 3 ayrı formülden yararlanılır. Bu formüllerin ilki günlük faiz getirisini hesaplamayı sağlayan (Anapara/100)x (Faiz Oranı/365)x Gün Sayısı formülüdür. Diğer formül aylık faiz getirisini hesaplamayı sağlayan (Anapara/100)x (Faiz Oranı/12)x Ay Sayısı formülüdür. Son formül de yıllık faiz getirisini hesaplamayı sağlayan (Anapara/100) x (Faiz Oranı) x Yıl Sayısı formülüdür. Bu formüllere göre 15.000 TL’yi %27 faiz getirisi olan bir mevduat hesabına yatırırsanız 1 yıl boyunca sağlayacağı getiriyi şu şekilde hesaplayabilirsiniz: (15.000/100)x(27/100)x1 formülünden yıllık getiri 4.050 TL olur. Bu hesaba göre %27 faiz getirisi olan hesaba yatırılan 15.000 TL bir yıl sonunda 19.050 TL olacaktır."
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="327dp"
+        android:layout_height="21dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Mevduat Tipleri Nelerdir?"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="343dp"
+        android:layout_height="303dp"
+        android:background="@color/white"
+        android:text="Vadesiz Mevduat Süre kısıtı olmaksızın bankalarda açılan hesaptır. Bireylerin birikimlerini güvende tutmak adına kullandıkları hesap olarak da bilinmektedir. 10 kişiden fazla çalışana sahip kurumlar maaş ödemelerini genelde çalışanların bu hesaplarına yapmaktadırlar. Hesabın sahibi parasını çekebilir, maaşını bu hesapta toplayabilir, üçüncü bir kişiye para gönderimi yapabilir ve faturalarını bu hesaptan ödeyebilmektedirler. Vadeli Mevduat Süresi önceden belirlenmiş ve karşılıklı olarak beklenti durumu bulunan hesaptır. Yatırılan para bankada ne kadar durursa o kadar faiz eklenir. Bu süreler; 1 ay, 3 ay, 6 ay ve 1 yıl olarak açılabilir. Hesabın sahibi istediği zaman parasını çekebilme hakkına sahip olsa da belirlenmiş süre bitmeden önce çekim yapılırsa eklenen ve ya eklenecek olan faizden düşüş gerçekleşir ya da faiz hakkı kaybolur. Vadeli hesaptan faiz geliri elde edebilmek için vade sonundan önce para çekilmemelidir. Bu nedenle vadeli hesap açmadan önce vade süresi seçeneği belirlenirken dikkat edilmelidir. Son güne kadar hesaptaki paraya ihtiyacımız olmayacağından emin olunmalıdır. Her bankada hesap alt limitleri, faiz oranları ve vade seçenekleri değişkenlik göstermektedir. Vadeli mevduat hesabı açmadan önce iyi bir banka araştırması ve değerlendirmesi yapmak karlı bir yatırım için öncelik olmalıdır."
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="189dp"
+        android:layout_height="39dp"
+        android:text="Daha Fazla Göster.."
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="662dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
