@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7EEA7C">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="274dp"
+        android:layout_height="37dp"
+        android:background="#7EEA7C"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="ENKAZANÇLI"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="272dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Mevduat Faizi Hesaplama"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="219dp"
+        android:layout_height="26dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="numberSigned"
+        android:text="Vade Girin"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned2"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="numberSigned"
+        android:text="MEVDUAT TUTAR GİR"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="   Bankalar Mevduat Listesi"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <ImageView
+        android:id="@+id/garantibank"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/garanti"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="327dp"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/isbankasi"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:foreground="@drawable/ibankas"
+        app:srcCompat="@drawable/garanti"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <ImageView
+        android:id="@+id/ingbank"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:foreground="@drawable/ing"
+        app:srcCompat="@drawable/garanti"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <ImageView
+        android:id="@+id/vakifbank"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:foreground="@drawable/vakfbank"
+        app:srcCompat="@drawable/garanti"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/ziraatbank"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:foreground="@drawable/ziraat"
+        app:srcCompat="@drawable/garanti"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:background="@color/white"
+        android:text="  Mevduat Faizi Nasıl Hesaplanır ?            (Detaylar için Tıklayınız)"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:text="Mevduat Tipleri Nelerdir?                                       (Detaylar için Tıklayınız)"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="232dp"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Faiz(maks-min)    =    % 20,00 /  Vade(maks-min)  =      90-360 gün  /  Anapara        =   2,000-500,000 TL"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="232dp"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Faiz(maks-min)    =    %31,00   / Vade(maks-min)  =    32-270 gün   /  Anapara     =      1.000-1.000.000 TL"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="283dp"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Faiz(maks-min)    =   % 25,00  /  Vade(maks-min)  =   1-360 gün  /  Anapara      =  1,000-75,000 TL"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="284dp"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Faiz(maks-min)    =   % 25,00     /Vade(maks-min)  =   1-360 gün    Anapara   =   0-250,000 TL"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="232dp"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Faiz(maks-min)    =     % 27,00  /   Vade  (maks-min)  =   1-90 gün   /  Anapara    =    3000-500000 TL "
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:text="MEVDUAT HESAPLA"
+        app:circularflow_radiusInDP="31"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="66dp"
+        android:layout_height="31dp"
+        android:background="@color/white"
+        android:onClick="TL"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="139dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="181dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
