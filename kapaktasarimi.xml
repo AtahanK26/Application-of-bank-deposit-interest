@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="kapakVM" type="com.atahansapplication.app.modules.kapak.data.viewmodel.KapakVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearKAPAK"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegreen_300">
+        <ImageView android:id="@+id/imageEllipseSix"
+            android:layout_height="@dimen/_60pxh"
+            android:layout_marginBottom="@dimen/_418pxv"
+            android:layout_marginStart="@dimen/_45pxh"
+            android:layout_marginTop="@dimen/_322pxv"
+            android:layout_width="@dimen/_60pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_ellipse6}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse6"/>
+        <ImageView android:id="@+id/imageEllipseSeven"
+            android:layout_height="@dimen/_60pxh"
+            android:layout_marginBottom="@dimen/_418pxv"
+            android:layout_marginStart="@dimen/_48pxh"
+            android:layout_marginTop="@dimen/_322pxv"
+            android:layout_width="@dimen/_60pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_ellipse7}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse7"/>
+        <ImageView android:id="@+id/imageEllipseEight"
+            android:layout_height="@dimen/_60pxh"
+            android:layout_marginBottom="@dimen/_418pxv"
+            android:layout_marginEnd="@dimen/_39pxh"
+            android:layout_marginStart="@dimen/_48pxh"
+            android:layout_marginTop="@dimen/_322pxv"
+            android:layout_width="@dimen/_60pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_ellipse8}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse8"/>
+    </LinearLayout>
+</layout>
